@@ -5,7 +5,9 @@ body {
     background-color: hsl(212, 45%, 89%);
 }
 
-.container {
+/* Layout */
+
+main {
     width: 325px;
     margin: 100px auto;
     background-color: white;
@@ -18,9 +20,15 @@ body {
     border-radius: 12px;
 }
 
+footer {
+    color: hsl(218, 44%, 22%);
+}
+
+/* Typography */
+
 h1 {
     margin: 20px 30px;
-    font-size: 22px;
+    font-size: 1.375em;
     font-weight: 700;
     color: hsl(218, 44%, 22%);
 }
@@ -28,10 +36,5 @@ h1 {
 p {
     color: hsl(220, 15%, 55%);
     margin: 0 30px;
-    font-size: 15px;
+    font-size: 0.9375em;
 }
-
-footer {
-    color: hsl(218, 44%, 22%);
-}
-
