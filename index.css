@@ -1,3 +1,9 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
 body {
     font-family: 'Outfit', sans-serif;
     margin: 0;
@@ -8,6 +14,9 @@ body {
 /* Layout */
 
 main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 325px;
     margin: 100px auto;
     background-color: white;
